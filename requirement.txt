@@ -1,0 +1,6 @@
+Flask
+gunicorn
+requests
+feedparser
+google-generativeai
+praw
