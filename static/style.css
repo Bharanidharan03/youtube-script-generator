@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+select, input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box; /* Important for padding */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+p {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Preserve line breaks */
+}
